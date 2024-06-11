@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="main"></h1>
+    <script>
+let a = prompt("enter your name")
+let b = prompt("enter your student id")
+let c = prompt("enter your std:")
+let d = prompt("enter your maths mark:         ")
+let e = prompt("enter your chemistry mark:     ")
+let h = prompt("enter your physiecs mark:      ")
+
+
+document.write("ITC, Bramjyort ,Mogri","<br>")
+document.write(" Anand,388205","<br>")
+
+document.write("====================================================","<br>")
+document.write("Name :")
+document.write(a,"<br>") 
+document.write("Student ID :")
+document.write(b,"<br>")
+document.write("STD :")
+document.write(c,"<br>")
+document.write("=======================================================","<br>")
+document.write("Maths Mark:       ")
+document.write(d,"<br>")
+document.write("Chemisty Mark:    ")
+document.write(e,"<br>")
+document.write("Physiecs Mark :   ")
+document.write(h,"<br>")
+document.write("===========================================================","<br>")
+let total=d+e+h;
+document.write("total marks:",total,"br");
+document.getElementById("main").innerHTML = total;
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+.header{
+    display: flex;
+    background-color: #f16f04;
+    height: 120px;
+    align-items: center;
+    width: 1200px;
+    width: 100vw;
+    position: fixed;
+    justify-content: space-around;
+    top: 0;
+    z-index: 100;
+}
+.header .header-logo{
+    
+    }
+    .header .header-logo img{
+    height: 80px;
+    }
+    .header .navbar{
+    
+    }
+    .header .navbar ul{
+                   list-style-type: none;
+    
+    }
+    .header .navbar ul li{
+                   display: inline-flex;
+    
+    }
+    .header .navbar ul li a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 15px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: black;
+    }
+    .header .navbar ul li a:hover{
+    color: red;
+    }
+    .header .button input{
+    
+    }
+    button{
+                   background-color: red;
+                   color: white;
+                   height: 35px;
+                   width: 90px;
+                   border-radius: 50px;
+                   border: 2px solid red;
+                   font-size: 20px;
+                   font-weight: 700;
+                   text-transform: capitalize;
+    }
+    table{
+                   border: 2px solid black;
+                   background-color: antiquewhite;
+    }
+    tr:nth-child(even){
+    background-color: gray;
+    }
+    tr:hover{
+                   background-color: pink;
+    }
+    .home{
+                   background-color: antiquewhite;
+                   height: 1000px;
+                   margin-top: 120px;
+}
+button{
+    display: flex;
+}
+i{
+    color: orange;
+   font-size: 35px;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+   transition: all 0.5s linear;
+   border-radius: 50%;
+
+}
+i:hover{
+    color: red;
+    font-size: 40px;
+}
+@media(max-width:1000px){
+    button{
+        font-size: 10px;
+        width: 50px;
+    }
+    .header .navbar ul li a{
+        margin: 5px;
+        padding: 10px;
+        font-size: 20px;
+        
+        }
+
+}

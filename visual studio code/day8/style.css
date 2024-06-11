@@ -1,0 +1,19 @@
+.hari{
+    background-color: aliceblue;
+    height: 800px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hari .hari2 img{
+    height: 100px;
+    width: 100px;
+
+}
+.hari .hari3 ul{
+    list-style-type: none;
+
+
+}
